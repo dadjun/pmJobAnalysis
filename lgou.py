@@ -96,7 +96,7 @@ def get_json(url, page, lang_name):
 
 
 def main():
-    lang_name = '数据产品经理'
+    lang_name = '产品经理'
     wb = Workbook()  # 打开 excel 工作簿
     conn = get_conn()  # 建立数据库连接  不存数据库 注释此行
     for i in ['深圳']:   # 五个城市
